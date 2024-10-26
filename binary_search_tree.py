@@ -70,6 +70,6 @@ bst = BinarySearchTree()
 for value in [21, 17, 16, 5, 4, 1, 10]:
     bst.insert(value)
 
-print(bst.inorder())
-bst.delete(17)
-print(bst.inorder())
+print("BST In-order after insertion:", bst.inorder())
+bst.delete(18)
+print("BST In-order after deleting 18:", bst.inorder())
