@@ -1,0 +1,58 @@
+output of binary_search_tree
+
+BST In-order after insertion: [1, 4, 5, 10, 16, 17, 18, 21]
+BST In-order after deleting 18: [1, 4, 5, 10, 16, 17, 21]
+
+output of red_black_tree
+
+Inserted 21:
+-> 21 (BLACK)
+Inserted 17:
+-> 21 (BLACK)
+    -> 17 (RED)
+Inserted 16:
+    -> 21 (RED)
+-> 17 (BLACK)
+    -> 16 (RED)
+Inserted 5:
+    -> 21 (BLACK)
+-> 17 (BLACK)
+    -> 16 (BLACK)
+        -> 5 (RED)
+Inserted 4:
+    -> 21 (BLACK)
+-> 17 (BLACK)
+        -> 16 (RED)
+    -> 5 (BLACK)
+        -> 4 (RED)
+Inserted 1:
+    -> 21 (BLACK)
+-> 17 (BLACK)
+        -> 16 (BLACK)
+    -> 5 (RED)
+        -> 4 (BLACK)
+            -> 1 (RED)
+Inserted 10:
+    -> 21 (BLACK)
+-> 17 (BLACK)
+        -> 16 (BLACK)
+            -> 10 (RED)
+    -> 5 (RED)
+        -> 4 (BLACK)
+            -> 1 (RED)
+Inserted 18:
+    -> 21 (BLACK)
+        -> 18 (RED)
+-> 17 (BLACK)
+        -> 16 (BLACK)
+            -> 10 (RED)
+    -> 5 (RED)
+        -> 4 (BLACK)
+            -> 1 (RED)
+Final In-order traversal after insertions: [1, 4, 5, 10, 16, 17, 18, 21]
+Final In-order traversal after deleting 18: [1, 4, 5, 10, 16, 17, 21]
+
+output of avl_tree
+
+In-order traversal after insertions: [1, 4, 5, 10, 16, 17, 18, 21]
+In-order traversal after deleting 18: [1, 4, 5, 10, 16, 17, 21]
